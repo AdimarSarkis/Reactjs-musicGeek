@@ -87,3 +87,14 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+@media only screen and (max-width: 768px) {
+    button{
+        left: 50px;
+    }
+}
+@media (max-width: 500px){
+    button{
+        left: 11rem;
+        bottom: 6rem;
+    }
+}

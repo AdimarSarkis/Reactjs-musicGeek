@@ -35,3 +35,31 @@
     font-size: 2.5em;
     text-shadow: 8px -3px 8px #ff0000;
 }
+@media only screen and (max-width: 768px){
+    .separacao{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .container .info{
+        display: flex;
+        height: inherit;
+        flex-direction: column;
+    }
+    .container .info .banner img{
+        width: 300px;
+        margin-top: 70px;
+        filter: drop-shadow(8px -3px 8px #ff0000);
+    }
+    .container .info .infoCards h1{
+        font-size: 2.5em;
+        text-shadow: 8px -3px 8px #ff0000;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    .container .info .infoCards p{
+        font-size: 1.6rem;
+        margin-left: 20px;
+        margin-bottom: 20%;
+    }
+}

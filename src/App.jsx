@@ -6,8 +6,7 @@ import Pesquisa from './hooks/usePesquisa';
 function App() {
   return (
     <div className='container'>
-      <Pesquisa />
-  
+      <Home />
     </div>
   )
 }
